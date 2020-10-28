@@ -1,0 +1,22 @@
+$typography-config: (
+  sizes: (
+    xs: 10px,
+    sm: 12px,
+    md: 14px,
+    lg: 16px,
+    xxs: 20px
+  ),
+  colors: (
+    main: #262626,
+    secondary: #0000007F,
+    primary: #53B324,
+    white: white,
+    gray: rgba(255,255,255, 0.6),
+    blue: #1C69D4,
+    danger: #ff4d4f
+  ),
+  weight: (
+    regular: 400,
+    bold: 700
+  )
+);

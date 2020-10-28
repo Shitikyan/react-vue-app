@@ -1,0 +1,32 @@
+.authority-core {
+    &--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__grid {
+        display: flex;
+        align-items: center;
+
+        :first-child {
+            width: 90px;
+        }
+
+        :nth-child(2) {
+            margin-top: 2px;
+        }
+    }
+
+    &__flex {
+        display: flex;
+
+        .text {
+            margin: 0;
+        }
+    }
+
+    .list {
+        width: 100%;
+    }
+}

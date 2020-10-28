@@ -1,0 +1,50 @@
+.published-version {
+    &, .titles {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    &__header {
+        display: flex !important;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__body {
+        padding-top: 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+
+        .titles-container {
+            display: flex;
+
+            &.uuid {
+                gap: 90px;
+            }
+        }
+    }
+
+    .title-values {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .locator-header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .uuid-container {
+        display: flex;
+        padding-top: 0 !important;
+    }
+}

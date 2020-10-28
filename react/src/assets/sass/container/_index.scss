@@ -1,0 +1,14 @@
+@each $name, $size in global-get(sizes) {
+  .container-#{$name} {
+    padding: $size;
+  }
+}
+
+.container-full {
+  padding: 0;
+}
+
+.container-m-s {
+  max-height: 150px;
+  overflow: auto;
+}

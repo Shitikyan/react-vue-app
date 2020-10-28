@@ -1,0 +1,49 @@
+@import './config';
+
+.text {
+  color: map-deep-get($typography-config, colors, main);
+  font-size: map-deep-get($typography-config, sizes, sm);
+  line-height: map-deep-get($typography-config, sizes, sm) + 2px;
+  font-weight: map-deep-get($typography-config, weight, regular);
+}
+
+.text-title {
+  color: map-deep-get($typography-config, colors, secondary);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-no-wrap {
+  white-space: nowrap;
+}
+
+@each $name, $size in map-deep-get($typography-config, sizes) {
+  .text-#{$name} {
+    font-size: $size;
+    line-height: $size + 2px;
+  }
+}
+
+@each $name, $color in map-deep-get($typography-config, colors) {
+  .text-#{$name} {
+    color: $color;
+
+    &:hover {
+      &.text-hover {
+        color: light($color);
+      }
+    }
+  }
+}
+
+@each $name, $weight in map-deep-get($typography-config, weight) {
+  .text-#{$name} {
+    font-weight: $weight;
+  }
+}

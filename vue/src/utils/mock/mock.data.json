@@ -1,0 +1,202 @@
+{
+  "get/api/authority/core": {
+    "@context": "http://grcschema.org/",
+    "@type": "AuthorityDocument",
+    "CoreMetaData": {
+      "date_created": "2014-05-05",
+      "date_modified": "2020-08-11",
+      "table": "AuthorityDocuments",
+      "checksum": 5
+    },
+    "HierarchicalMetaData": {
+      "parent_id": 1548,
+      "sort_value": 2,
+      "id": 1558,
+      "genealogy": "0000000 0002359 0002320 0002912 0000603 0001548",
+      "ChildIDs": {
+        "@set": [
+          {
+            "id": null,
+            "authority_document_fk": null
+          }
+        ]
+      }
+    },
+    "Authors": {
+      "@set": [
+        {
+          "email": null,
+          "first_name": null,
+          "last_name": null,
+          "person_id": null,
+          "authority_document_fk": null,
+          "organization_fk": null,
+          "author_editor_name": null
+        }
+      ]
+    },
+    "Editors": {
+      "@set": [
+        {
+          "email": null,
+          "first_name": null,
+          "last_name": null,
+          "person_id": null,
+          "authority_document_fk": null,
+          "organization_fk": null,
+          "author_editor_name": null
+        }
+      ]
+    },
+    "ADStructure": {
+      "deprecated_by": null
+    },
+    "ADIdentifiers": {
+      "@set": [
+        {
+          "id": 2584,
+          "search_information": null,
+          "doi": null,
+          "database": null,
+          "date_accessed": null,
+          "isbn": null,
+          "uuid": "1558",
+          "url": "https://cch.commoncontrolshub.com/workspace-commoncontrols.php?adID=2584",
+          "epub_type": null,
+          "availability": "Free",
+          "publisher_promulgator_name": "LAWriter Ohio Laws and Rules",
+          "publisher_promulgator_id": 1249,
+          "published_date": null,
+          "authority_document_fk": 1558,
+          "catalog_id": null,
+          "periodical_title": null,
+          "publication_place": null,
+          "volume_issue": null,
+          "website_publisher": null,
+          "website_title": null,
+          "language": null,
+          "blog_title": null
+        }
+      ]
+    },
+    "CommonNames": {
+      "@set": [
+        {
+          "name": "Ohio Revised Code, Chapter 1349",
+          "id": 1558,
+          "authority_document_fk": 1558
+        }
+      ]
+    },
+    "ADLinkedElements": {
+      "ADCitations": {
+        "@set": [
+          [
+            {
+              "authority_document_fk": null,
+              "citation_id": null
+            }
+          ]
+        ]
+      },
+      "ADRoles": {
+        "@set": [
+          [
+            {
+              "authority_document_fk": null,
+              "role_id": null
+            }
+          ]
+        ]
+      },
+      "ADDictionaryTerms": {
+        "@set": [
+          [
+            {
+              "authority_document_fk": null,
+              "di_id": null
+            }
+          ]
+        ]
+      }
+    },
+    "ADMapping": {
+      "@set": [
+        {
+          "license_info": "http://www.unifiedcompliance.com/licenses/index.html",
+          "status": "Recommended",
+          "release_date": null,
+          "authority_document_fk": 1558,
+          "Team": {
+            "@set": [
+              {
+                "Member": {
+                  "role": "approver",
+                  "role_id": 6,
+                  "person_name": "Dorian Cougias",
+                  "team_id_fk": 176,
+                  "organization": "Unified Compliance Framework",
+                  "organization_id": 4144
+                }
+              },
+              {
+                "Member": {
+                  "role": "reviewer",
+                  "role_id": 5,
+                  "person_name": "Erwin Rydell",
+                  "team_id_fk": 176,
+                  "organization": "Unified Compliance Framework",
+                  "organization_id": 4144
+                }
+              },
+              {
+                "Member": {
+                  "role": "mapper",
+                  "role_id": 4,
+                  "person_name": "Steven Murawski",
+                  "team_id_fk": 176,
+                  "organization": "Unified Compliance Framework",
+                  "organization_id": 4144
+                }
+              }
+            ],
+            "id": 176,
+            "admapping_fk": 1411
+          }
+        }
+      ]
+    },
+    "SubjectMattersStub": {
+      "@set": [
+        {
+          "authority_document_fk": null,
+          "sm_id": null,
+          "sm_name": null
+        }
+      ]
+    },
+    "catalog_id": null,
+    "series": null,
+    "description": null,
+    "di_fk": 262173,
+    "title": "Ohio Revised Code, Chapter 1349, Security Freeze on Consumer Credit Report",
+    "published_version": null,
+    "official_name": "Ohio Revised Code, Chapter 1349, Security Freeze on Consumer Credit Report",
+    "effective_date": "Not Defined",
+    "legal_status": null,
+    "pages": null,
+    "parent_category": "North America",
+    "subtitle": null,
+    "chapter": null,
+    "subchapter": null,
+    "section": null,
+    "type": "Regulation or Statute",
+    "availability": "Free",
+    "citation_format": "§ (Legal)",
+    "supercede_id": null,
+    "subject_matter": "Privacy",
+    "request_id": 361,
+    "genealogy": "0000000 0002359 0002320 0002912 0000603 0001548",
+    "id": 1558
+  }
+}

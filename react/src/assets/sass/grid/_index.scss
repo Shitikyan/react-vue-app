@@ -1,0 +1,9 @@
+.grid {
+  @for $size from 0 to 6 {
+    &.grid-#{$size} {
+      display: grid;
+      grid-template-columns: repeat($size, minmax(200px, 1fr));
+      gap: 20px;
+    }
+  }
+}

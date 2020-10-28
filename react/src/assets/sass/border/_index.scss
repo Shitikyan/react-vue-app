@@ -1,0 +1,23 @@
+$border-style: global-get(border, style);
+
+.border-default {
+  border: $border-style;
+  width: 100%;
+  margin: -1px;
+  
+  &.border-rounded {
+    border-radius: global-get(border, radius);
+  }
+}
+
+@each $position in $positions {
+  .border-#{$position} {
+    border: none;
+    border-#{$position}: $border-style;
+    margin-#{$position}: -1px;
+  }
+}
+
+.border-none {
+  border: none;
+}
